@@ -3,7 +3,6 @@
 	"displayName": "Number Converter",
 	"description": "Convert: [dec, hex, bin]",
 	"publisher": "kamiyaowl",
-	"icon": "images/icon.svg",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
@@ -25,7 +24,7 @@
 			{
 				"command": "extension.convert",
 				"title": "Number Converter: Convert Number"
-			},
+			}
 		]
 	},
 	"scripts": {

@@ -12,7 +12,7 @@ export function activate(context: vscode.ExtensionContext) {
 	const commands = [
 		vscode.commands.registerCommand('extension.convert-from-input', () => {
 			vscode.window.showInputBox({
-				placeHolder: "e.g. 256, 0xff00abcd, 0b10101100...",
+				placeHolder: "e.g.) 256  0xff00abcd 0b10101100...",
 			}).then(data => {
 				if (typeof data === 'string') {
 					showResult(data);
