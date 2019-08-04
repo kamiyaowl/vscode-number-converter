@@ -1,5 +1,7 @@
 # number-converter README
 
+![preview](https://github.com/kamiyaowl/vscode-number-converter/raw/master/images/preview.gif)
+
 ## Features
 
 カーソル選択中の数値、もしくはテキストインプットされた数値を2進数、10進数、16進数に変換して表示します。
