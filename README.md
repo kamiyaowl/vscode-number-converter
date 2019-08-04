@@ -1,4 +1,4 @@
-# number-converter README
+# [Number Converter](https://marketplace.visualstudio.com/items?itemName=kamiyaowl.number-converter)
 
 ![preview](https://github.com/kamiyaowl/vscode-number-converter/raw/master/images/preview.gif)
 
