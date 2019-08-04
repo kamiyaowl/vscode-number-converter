@@ -11,6 +11,7 @@
 		"Other"
 	],
 	"activationEvents": [
+		"onCommand:extension.convert-from-input",
 		"onCommand:extension.convert",
 		"onCommand:extension.increment",
 		"onCommand:extension.decrement"
@@ -18,6 +19,10 @@
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
+			{
+				"command": "extension.convert-from-input",
+				"title": "Number Converter: Convert Number(from InputBox)"
+			},
 			{
 				"command": "extension.convert",
 				"title": "Number Converter: Convert Number"
