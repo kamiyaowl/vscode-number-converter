@@ -3,6 +3,7 @@
 	"displayName": "Number Converter",
 	"description": "Convert: [dec, hex, bin]",
 	"publisher": "kamiyaowl",
+	"repository": "https://github.com/kamiyaowl/vscode-number-converter",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
