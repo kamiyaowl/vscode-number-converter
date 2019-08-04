@@ -1,8 +1,9 @@
 {
 	"name": "number-converter",
 	"displayName": "Number Converter",
-	"description": "Support increment, decrement, and Convert dec, hex and bin.",
+	"description": "Convert: [dec, hex, bin]",
 	"publisher": "kamiyaowl",
+	"icon": "images/icon.svg",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.36.0"
@@ -12,9 +13,7 @@
 	],
 	"activationEvents": [
 		"onCommand:extension.convert-from-input",
-		"onCommand:extension.convert",
-		"onCommand:extension.increment",
-		"onCommand:extension.decrement"
+		"onCommand:extension.convert"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -27,14 +26,6 @@
 				"command": "extension.convert",
 				"title": "Number Converter: Convert Number"
 			},
-			{
-				"command": "extension.increment",
-				"title": "Number Converter: Increment"
-			},
-			{
-				"command": "extension.decrement",
-				"title": "Number Converter: Decrement"
-			}
 		]
 	},
 	"scripts": {
